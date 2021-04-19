@@ -1,0 +1,4 @@
+.DS_Store
+/root/build/*
+/root/.wget-hsts
+/root/.bash_history

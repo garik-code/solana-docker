@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  solana:
+    container_name: solana
+    hostname: solana
+    build: .
+    volumes:
+     - ./root:/root
+    ports:
+     - 11000-11050:11000-11050
+     - 11000-11050:11000-11050/udp
+     - 8899:8899
+     - 8900:8900
