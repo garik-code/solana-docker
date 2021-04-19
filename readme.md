@@ -7,13 +7,17 @@
 # Install
 
 Install `git`, `docker` and `docker-compose`.
+
 Git clone this repository.
+
 
 Run bash script:
 
 ```
 bash install.sh
 ```
+
+--
 
 # Using
 
