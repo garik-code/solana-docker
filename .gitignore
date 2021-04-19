@@ -5,3 +5,4 @@
 /root/validator-keypair.json
 /root/vote-account-keypair.json
 /root/solana-validator.log
+.install.sh
