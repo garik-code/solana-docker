@@ -1,4 +1,4 @@
-# Build
+# Install
 
 Git clone and install `docker` and `docker-compose`.
 
@@ -8,7 +8,7 @@ Run bash script:
 bash install.sh
 ```
 
-# Launch
+# Using
 
 Run bash script:
 
