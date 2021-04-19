@@ -49,7 +49,7 @@ solana-validator \
   --identity ~/validator-keypair.json \
   --vote-account ~/vote-account-keypair.json \
   --rpc-port 8899 \
-  --entrypoint testnet.solana.com:8001 
+  --entrypoint testnet.solana.com:8001 \
   --limit-ledger-size \
   --log ~/solana-validator.log \
   --dynamic-port-range 11000-11050
