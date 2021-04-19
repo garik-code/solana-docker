@@ -4,8 +4,12 @@ Install `docker` and `docker-compose`
 
 Run command:
 
-`bash install.sh`
+```
+bash install.sh
+```
 
 # Launch
 
-`bash terminal.sh`
+```
+bash terminal.sh
+```
