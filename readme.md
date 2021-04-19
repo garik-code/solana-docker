@@ -1,6 +1,6 @@
 # Build
 
-Install `docker` and `docker-compose`
+Git clone and install `docker` and `docker-compose`.
 
 Run command:
 
