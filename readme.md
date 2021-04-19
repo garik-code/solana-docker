@@ -60,5 +60,11 @@ solana-validator \
   --dynamic-port-range 11000-11050
 ```
 
+Confirm your validator connected to the network by opening a new terminal and running:
+
+```
+solana-gossip spy --entrypoint testnet.solana.com:8001
+```
+
 
 ---
