@@ -6,7 +6,8 @@
 
 # Install
 
-Git clone and install `docker` and `docker-compose`.
+Install `git`, `docker` and `docker-compose`.
+Git clone this repository.
 
 Run bash script:
 
