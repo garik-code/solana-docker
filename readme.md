@@ -40,9 +40,6 @@ solana-keygen new -o ~/validator-keypair.json
 solana-keygen new -o ~/vote-account-keypair.json
 ```
 ```
-solana create-vote-account ./vote-account-keypair.json ./validator-keypair.json
-```
-```
 validator-ledger ???
 ```
 
