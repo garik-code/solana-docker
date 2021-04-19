@@ -4,6 +4,8 @@
   </a>
 </p>
 
+---
+
 # Install
 
 Install `git`, `docker` and `docker-compose`.
@@ -43,3 +45,5 @@ Run command:
 ```
 solana-validator   --identity ~/validator-keypair.json   --vote-account ~/vote-account-keypair.json   --ledger ~/validator-ledger   --rpc-port 8899 --entrypoint testnet.solana.com:8001 --trusted-validator 5D1fNXzvv5NjV1ysLjirC4WY92RNsVH18vjmcszZd8on --limit-ledger-size   --log ~/solana-validator.log --dynamic-port-range 11000-11050
 ```
+
+---
