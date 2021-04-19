@@ -16,7 +16,7 @@ Run bash script:
 bash terminal.sh
 ```
 
-## Create keys:
+### Create keys:
 
 Run command:
 
@@ -25,7 +25,7 @@ solana-keygen new -o ~/validator-keypair.json
 
 ```
 
-## Launch
+### Launch
 
 Run command:
 
