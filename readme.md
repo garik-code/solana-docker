@@ -4,7 +4,7 @@ Install `docker` and `docker-compose`
 
 Run command:
 
-`sh install.sh`
+`bash install.sh`
 
 ---
 
