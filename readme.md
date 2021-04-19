@@ -31,7 +31,7 @@ bash terminal.sh
 
 ### Create keys:
 
-Run command:
+Run command (at first start):
 
 ```
 solana-keygen new -o ~/validator-keypair.json
