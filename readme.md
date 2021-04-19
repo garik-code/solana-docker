@@ -6,7 +6,7 @@
 
 ---
 
-# Install
+# Build 🛠
 
 Install `git`, `docker` and `docker-compose`.
 
