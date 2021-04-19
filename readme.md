@@ -2,13 +2,15 @@
 
 Git clone and install `docker` and `docker-compose`.
 
-Run command:
+Run bash script:
 
 ```
 bash install.sh
 ```
 
 # Launch
+
+Run bash script:
 
 ```
 bash terminal.sh
