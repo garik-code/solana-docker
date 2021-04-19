@@ -17,7 +17,7 @@ Run bash script:
 bash install.sh
 ```
 
---
+---
 
 # Using
 
