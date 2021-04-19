@@ -5,6 +5,8 @@ Install `docker` and `docker-compose`
 Run command:
 
 `bash install.sh`
+`bash terminal.sh`
+`solana --version`
 
 ---
 
