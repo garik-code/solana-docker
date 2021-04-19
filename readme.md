@@ -23,7 +23,7 @@ bash install.sh
 
 # Using 👏
 
-Run bash script:
+Run bash script (command execution environment):
 
 ```
 bash terminal.sh
