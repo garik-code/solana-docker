@@ -15,3 +15,10 @@ Run bash script:
 ```
 bash terminal.sh
 ```
+
+Create keys:
+
+```
+solana-keygen new -o ~/validator-keypair.json
+
+```
