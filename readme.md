@@ -6,7 +6,7 @@
 
 ---
 
-# Install
+# Install 🚀
 
 Install `git`, `docker` and `docker-compose`.
 
@@ -21,7 +21,7 @@ bash install.sh
 
 ---
 
-# Using
+# Using 👏
 
 Run bash script:
 
@@ -29,9 +29,9 @@ Run bash script:
 bash terminal.sh
 ```
 
-### Create keys:
+### Create keys
 
-Run command (at first start):
+Run commands (at first start):
 
 ```
 solana-keygen new -o ~/validator-keypair.json
