@@ -12,3 +12,9 @@ services:
      - 11000-11050:11000-11050/udp
      - 8899:8899
      - 8900:8900
+    deploy:
+      resources:
+        limits:
+          memory: 5120M
+        reservations:
+          memory: 2048M
