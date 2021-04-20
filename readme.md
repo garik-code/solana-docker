@@ -51,21 +51,23 @@ solana create-vote-account ~/vote-account-keypair.json ~/validator-keypair.json
 Run command:
 
 ```
-solana-validator \
+solana-validator 
   --identity ~/validator-keypair.json \
   --vote-account ~/vote-account-keypair.json \
-  --ledger ~/ledger \
-  --rpc-port 8899 \
-  --entrypoint testnet.solana.com:8001 \
   --trusted-validator 5D1fNXzvv5NjV1ysLjirC4WY92RNsVH18vjmcszZd8on \
+  --trusted-validator 7XSY3MrYnK8vq693Rju17bbPkCN3Z7KvvfvJx4kdrsSY \
+  --trusted-validator Ft5fbkqNa76vnsjYNwjDZUXoTWpP7VYm3mtsaQckQADN \
+  --trusted-validator 9QxCLckBiJc783jnMvXZubK4wH86Eqqvashtrwvcsgkv \
+  --no-untrusted-rpc \
+  --ledger ~/validator-ledger \
+  --rpc-port 8899 \
+  --dynamic-port-range 11000-11050 \
+  --entrypoint entrypoint.testnet.solana.com:8001 \
+  --expected-genesis-hash 4uhcVJyU9pJkvQyS88uRDiswHXSCkY3zQawwpjk2NsNY \
+  --wal-recovery-mode skip_any_corrupted_record \
   --limit-ledger-size \
   --log ~/solana-validator.log \
-  --dynamic-port-range 11000-11050 \
-  --wait-for-supermajority 70430039 \
-  --no-snapshot-fetch \
-  --no-genesis-fetch \
-  --expected-bank-hash G4vJCyJXY1u8An6bdtoPNBdTFDwTtre7vvvKGpSyzL6q \
-  --expected-shred-version 18122
+  --no-poh-speed-test 
 ```
 
 Confirm your validator connected to the network by opening a new terminal and running:
