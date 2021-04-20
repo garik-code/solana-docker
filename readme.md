@@ -73,7 +73,7 @@ solana-validator \
 Confirm your validator connected to the network by opening a new terminal and running:
 
 ```
-solana-gossip spy --entrypoint testnet.solana.com:8001
+solana-gossip spy --entrypoint entrypoint.testnet.solana.com:8001
 ```
 
 
