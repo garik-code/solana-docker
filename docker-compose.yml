@@ -1,20 +1,15 @@
-version: '3'
+version: '2.4'
 
 services:
   solana:
     container_name: solana
-    hostname: solana
     build: .
     volumes:
      - ./root:/root
+    mem_limit: 5120M
+    mem_reservation: 2048M
     ports:
      - 11000-11050:11000-11050
      - 11000-11050:11000-11050/udp
      - 8899:8899
      - 8900:8900
-    deploy:
-      resources:
-        limits:
-          memory: 5120M
-        reservations:
-          memory: 2048M
