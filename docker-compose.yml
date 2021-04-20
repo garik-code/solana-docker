@@ -7,13 +7,13 @@ services:
     build: .
     volumes:
      - ./root:/root
+    mem_limit: 5120M
+    mem_reservation: 2048M
     ports:
      - 11000-11050:11000-11050
      - 11000-11050:11000-11050/udp
      - 8899:8899
      - 8900:8900
-    mem_limit: 5120M
-    mem_reservation: 2048M
     deploy:
       resources:
         limits:
