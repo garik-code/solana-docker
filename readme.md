@@ -54,10 +54,6 @@ Run command:
 solana-validator \
   --identity ~/validator-keypair.json \
   --vote-account ~/vote-account-keypair.json \
-  --trusted-validator 5D1fNXzvv5NjV1ysLjirC4WY92RNsVH18vjmcszZd8on \
-  --trusted-validator 7XSY3MrYnK8vq693Rju17bbPkCN3Z7KvvfvJx4kdrsSY \
-  --trusted-validator Ft5fbkqNa76vnsjYNwjDZUXoTWpP7VYm3mtsaQckQADN \
-  --trusted-validator 9QxCLckBiJc783jnMvXZubK4wH86Eqqvashtrwvcsgkv \
   --no-untrusted-rpc \
   --ledger ~/validator-ledger \
   --rpc-port 8899 \
