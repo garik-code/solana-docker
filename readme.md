@@ -51,7 +51,7 @@ solana create-vote-account ~/vote-account-keypair.json ~/validator-keypair.json
 Run command:
 
 ```
-solana-validator 
+solana-validator \
   --identity ~/validator-keypair.json \
   --vote-account ~/vote-account-keypair.json \
   --trusted-validator 5D1fNXzvv5NjV1ysLjirC4WY92RNsVH18vjmcszZd8on \
