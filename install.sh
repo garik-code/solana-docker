@@ -1,5 +1,5 @@
 #!/bin/sh
 
-docker stack deploy --compose-file docker-compose.yml solana
+docker-compose up --build -d
 docker exec -ti solana bash install.sh
 mv install.sh .install.sh
