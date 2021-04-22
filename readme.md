@@ -29,6 +29,16 @@ Run bash script (command execution environment):
 bash terminal.sh
 ```
 
+### System Tuning
+
+The daemon (solana-sys-tuner) is included in the solana binary release. Restart it, before restarting your validator, after each software upgrade to ensure that the latest recommended settings are applied.
+
+To run it:
+
+```
+sudo solana-sys-tuner --user $(whoami) > sys-tuner.log 2>&1
+```
+
 ### Create keys
 
 Run commands (at first start):
